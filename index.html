@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover Animitia Assignment</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
+   
+   
+   
+   
+   
+   
+   
+   <style>
         .common{
             width: 280px;
             height: 212px;
@@ -14,6 +21,7 @@
             background-size: cover;
             box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
             display: inline-block;
+            cursor: pointer;
         }
         .box1{
             position: relative;
@@ -53,6 +61,12 @@
         }
         .a5-2{
             left: 170px !important;
+        }
+        .a6-1{
+            left:110px !important;
+        }
+        .a6-2{
+            left: 110px !important;
         }
         .overlay2{
             background:rgba(0,0,0,0.5);
@@ -184,6 +198,235 @@
         .a5-1,.a5-2{
             transition: all 0.2s linear;
         }
+        .box5:hover .overlay5{
+            right:0px;
+            opacity: 1;
+        }
+        .box5:hover > .overlay5 > .a6-1{
+            left: 90px !important;
+        }.box5:hover > .overlay5 > .a6-2{
+            left: 140px !important;
+        }
+        .a6-1,.a6-2{
+            transition: all 0.2s linear;
+        }
+        .a7-1,.a7-2 {
+           transform: scale(1.5,1.5);
+           transition: all 0.3s linear;
+        }
+        .box5:hover .a7-1,.box5:hover .a7-2{
+            transform: scale(1,1);
+        }
+        .a8-1,.a8-2{
+            transform: scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a8-1,.box5:hover .a8-2{
+            transform: scale(1,1);
+        }
+        .a9-2{
+            transform: scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a9-2{
+            transform: scale(1,1);
+        }
+        .a9-1{
+            transform-origin: 62px center;
+            transform: rotate(0deg) scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a9-1{
+            transform: rotate(360deg) scale(1,1);
+        }
+        .a10-1{
+            transform: scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a10-1{
+            transform: scale(1,1);
+        }
+        .a10-2{
+            transform-origin: -31px center;
+            transform: rotate(0deg) scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a10-2{
+            transform: rotate(360deg) scale(1,1);
+        }
+        .a11-1{
+            transform-origin: 62px center;
+            transform: rotate(0deg) scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a11-1,.box5:hover .a11-2{
+            transform: rotate(-360deg) scale(1,1);
+        }
+        .a11-2{
+            transform-origin: -31px center;
+            transform: rotate(0deg) scale(0,0);
+            transition: all 0.3s linear;
+        }
+        .a12-1{
+            transform: scale(0,0)
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a12-1{
+            transform: scale(1,1);
+        }
+        .a13-1{
+            transform-origin: -137px center;
+            transform: rotate(180deg);
+        }
+        .a13-2{
+            transform-origin: 151px center;
+            transform: rotate(180deg);
+        }
+        .c13{
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a13-1,.box5:hover .a13-2{
+            transform: rotate(0deg);
+        }
+        .a14-1{
+            transform-origin:center -137px;
+            transform: rotate(180deg);
+        }
+        .a14-2{
+            transform-origin:center 151px;
+            transform: rotate(180deg);
+        }
+        .c14{
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a14-1,.box5:hover .a14-2{
+            transform: rotate(0deg);
+        }
+        .a15-1{
+            left: -40px !important;
+            transition: all 0.3s linear;
+        }
+        .a15-2{
+            left:280px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a15-1{
+            left: 90px !important;
+        }
+        .box5:hover .a15-2{
+            left: 140px !important;
+        }
+        .a16-1{
+            top: -40px !important;
+            transition: all 0.3s linear;
+        }
+        .a16-2{
+            top: 190px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a16-1{
+            top:90px !important;
+        }
+        .box5:hover .a16-2{
+            top:90px !important;
+        }
+        .a17-1,.a17-2{
+            border-radius: 0px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a17-1,.box5:hover .a17-2{
+            transform: rotate(-360deg);
+        }
+        .a18-1,.a18-2{
+            border-radius: 0px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a18-1,.box5:hover .a18-2{
+            transform: rotate(360deg);
+        }
+        .a19-1,.a19-2{
+            border-radius: 0px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a19-1,.box5:hover .a19-2{
+            border-radius: 40px !important;
+        }
+        .a20-1,.a20-2{
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a20-1,.box5:hover .a20-2{
+            border-radius:0px !important;
+        }
+        .a21-1,.a21-2{
+            border-radius: 0px !important;
+            transform: scale(0,1);
+            transition: all 0.2s linear;
+        }
+        .box5:hover .a21-1,.box5:hover .a21-2{
+            transform: scale(1,1);
+        }
+        .a22-1,.a22-2{
+            border-radius: 0px !important;
+            transform: scale(1,0);
+            transition: all 0.2s linear;
+        }
+        .box5:hover .a22-1,.box5:hover .a22-2{
+            transform: scale(1,1);
+        }
+        .a23-1,.a23-2{
+            border-radius: 0px !important;
+            transition: all 0.3s linear;
+        }
+        .a23-1{
+            left: -40px !important;
+        }
+        .a23-2{
+            left: 280px !important;
+        }
+        .box5:hover .a23-1{
+            left: 90px !important;
+        }
+        .box5:hover .a23-2{
+            left: 140px !important;
+        }
+        .a24-1{
+            border-radius: 0px !important;
+            top: -40px !important;
+            transition: all 0.3s linear;
+        }
+        .a24-2{
+            border-radius: 0px !important;
+            top: 190px !important;
+            transition: all 0.3s linear;
+        }
+        .box5:hover .a24-1{
+            top:90px !important;
+        }
+        .box5:hover .a24-2{
+            top:90px !important;
+        }
+        .a25-1{
+            transition: all 0.3s cubic-bezier(.02,1.95,.63,1.26) 0s;
+        }
+        .a25-2{
+            transition: all 0.3s cubic-bezier(.02,1.95,.63,1.26) 0.1s;
+        }
+        .a25-1,.a25-2{
+            transform:scale(0,0);
+        }
+        .box5:hover .a25-1,.box5:hover .a25-2{
+            transform:scale(1,1);
+        }
+        .a26-1{
+            transform: scale(7,7);
+            transition: all 0.2s linear;
+        }
+        .a26-2{
+            transform: scale(7,7);
+            transition: all 0.2s linear 0.1s;
+        }
+        .box5:hover .a26-1,.box5:hover .a26-2{
+            transform:scale(1,1);
     </style>
 </head>
 <body>
@@ -217,5 +460,131 @@
             <a class="a5-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
         </div>
     </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a6-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a6-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5 overlay7">
+            <a class="a7-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a7-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a8-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a8-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a9-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a9-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a10-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a10-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a11-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a11-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a12-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a12-2 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a13-1 c13" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a13-2 c13 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a14-1 c14" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a14-2 c14 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a15-1 c15" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a15-2 c15 tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a16-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a16-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a17-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a17-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a18-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a18-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a19-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a19-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a20-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a20-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a21-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a21-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a22-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a22-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a23-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a23-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a24-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a24-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>  
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a25-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a25-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>   
+    <div class="common box5">
+        <div class="common overlay5">
+            <a class="a26-1" href="#"> <i class="fas fa-link"></i> </a>
+            <a class="a26-2  tagb" href="#"> <i class="fas fa-search"></i> </a>
+        </div>
+    </div>   
 </body>
 </html>
